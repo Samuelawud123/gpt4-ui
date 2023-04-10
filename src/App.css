@@ -36,9 +36,10 @@ a {
 .gradient_text {
   background: var(--gradient-text);
   background-clip: text;
-  --webkit-background-clip: text;
-  --webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 .section_padding {
   padding: 4rem 6rem;
@@ -49,7 +50,7 @@ a {
 
 
 
-.scale-up-center {
+.scale_up_center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
